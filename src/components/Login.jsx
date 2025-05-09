@@ -24,7 +24,7 @@ function Login() {
       localStorage.setItem('token', response.data.token)
 
       // Redirect to a protected route, e.g., dashboard
-      navigate('/dashboard')  // Use 'navigate' to redirect
+      navigate('/home')  // Use 'navigate' to redirect
 
       alert('Login successful!')
     } catch (error) {
